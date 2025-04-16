@@ -761,9 +761,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8350-common/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
     vendor/oneplus/sm8350-common/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
     vendor/oneplus/sm8350-common/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
-    vendor/oneplus/sm8350-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
-    vendor/oneplus/sm8350-common/proprietary/odm/etc/dolby/multimedia_dolby_dax_default.xml:$(TARGET_COPY_OUT_ODM)/etc/dolby/multimedia_dolby_dax_default.xml \
-    vendor/oneplus/sm8350-common/proprietary/odm/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc:$(TARGET_COPY_OUT_ODM)/etc/init/vendor.dolby_v3_6.hardware.dms360@2.0-service.rc
+    vendor/oneplus/sm8350-common/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin
 
 PRODUCT_PACKAGES += \
     btaudio_offload_if \
@@ -1412,26 +1410,7 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.widevine \
     vendor.pixelworks.hardware.display.iris-service \
     vendor.pixelworks.hardware.feature.irisfeature-service \
-    oplus_sensor_fb \
-    libdapparamstorage_v3_6 \
-    libdeccfg_v3_6 \
-    libdlbdsservice_v3_6 \
-    libhwdap_v3_6 \
-    libswdap_v3_6 \
-    vendor.dolby_v3_6.hardware.dms360@2.0-impl \
-    vendor.dolby_v3_6.hardware.dms360@2.0 \
-    libdapparamstorage_v3_6_etc \
-    libdeccfg_v3_6_etc \
-    libdlbdsservice_v3_6_etc \
-    libqtigef_etc \
-    libstagefright_soft_ddpdec_etc \
-    libstagefrightdolby_etc \
-    libhwdap_v3_6_etc \
-    libswdap_v3_6_etc \
-    vendor.dolby_v3_6.hardware.dms360@2.0-impl_etc \
-    vendor.dolby_v3_6.hardware.dms360@2.0_etc \
-    manifest_dax_dolby_v3_6.xml \
-    vendor.dolby_v3_6.hardware.dms360@2.0-service
+    oplus_sensor_fb
 
 PRODUCT_PACKAGES += \
     system_ext_priv-app_ims_lib_arm64_libimscamera_jni_so \
@@ -1445,17 +1424,7 @@ PRODUCT_PACKAGES += \
     vendor_lib64_rfsa_adsp_libsns_low_lat_stream_skel_so \
     vendor_lib64_libEGL_adreno_so \
     vendor_lib64_libGLESv2_adreno_so \
-    vendor_lib64_libq3dtools_adreno_so \
-    libdapparamstorage_v3_6_etc_libdapparamstorage_v3_6_symlink32 \
-    libdeccfg_v3_6_etc_libdeccfg_v3_6_symlink32 \
-    libdlbdsservice_v3_6_etc_libdlbdsservice_v3_6_symlink32 \
-    libqtigef_etc_libqtigef_symlink32 \
-    libstagefright_soft_ddpdec_etc_libstagefright_soft_ddpdec_symlink32 \
-    libstagefrightdolby_etc_libstagefrightdolby_symlink32 \
-    libhwdap_v3_6_etc_libhwdap_v3_6_symlink32 \
-    libswdap_v3_6_etc_libswdap_v3_6_symlink32 \
-    vendor.dolby_v3_6.hardware.dms360@2.0-impl_etc_vendor.dolby_v3_6.hardware.dms360@2.0-impl_symlink32 \
-    vendor.dolby_v3_6.hardware.dms360@2.0_etc_vendor.dolby_v3_6.hardware.dms360@2.0_symlink32
+    vendor_lib64_libq3dtools_adreno_so
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
